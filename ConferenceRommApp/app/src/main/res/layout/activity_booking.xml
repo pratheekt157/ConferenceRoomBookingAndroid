@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:hint="EmployeeId"
+            android:layout_width="244dp"
+            android:layout_height="43dp" android:id="@+id/textView_emp_id" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496" tools:layout_editor_absoluteY="55dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="244dp"
+            android:layout_height="43dp" android:id="@+id/textView_conf_name" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496" tools:layout_editor_absoluteY="327dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="244dp"
+            android:layout_height="43dp" android:id="@+id/textView_from_time" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496" tools:layout_editor_absoluteY="271dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="244dp"
+            android:layout_height="43dp" android:id="@+id/textView_to_time" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496" tools:layout_editor_absoluteY="162dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="244dp"
+            android:layout_height="43dp" android:id="@+id/textView6" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496" tools:layout_editor_absoluteY="216dp"/>
+    <EditText
+            android:hint=""
+            android:layout_width="244dp"
+            android:layout_height="43dp" android:id="@+id/textView" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.496" tools:layout_editor_absoluteY="108dp"/>
+    <Button
+            android:text="BOOK"
+            android:layout_width="152dp"
+            android:layout_height="48dp" tools:layout_editor_absoluteY="394dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/book_button"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
