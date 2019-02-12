@@ -43,7 +43,7 @@ public class BuildingsActivity : AppCompatActivity() {
                     building_recycler_view.adapter = BuildingAdapter(buildingList!!)
                 }
                 else {
-                    Toast.makeText(applicationContext,"Unable to Load Buildings",Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext,"Unable to Load ",Toast.LENGTH_LONG).show()
                 }
 
             }
